@@ -1,0 +1,70 @@
+
+.nav-item {
+    background-color: #f6be30 ;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+    width: 6rem;
+    text-align: center;
+}
+
+.nav-item :hover{
+    background-color: #f68630;
+}
+
+.navbar-brand {
+    width: 3rem;
+}
+
+
+.carousel-inner {
+    padding: 1rem;
+    height: auto;
+
+}
+
+.card-content h2{
+    padding: auto;
+    margin: 0,2rem;
+    text-align: center;
+}
+
+
+.thumbnail img{
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+} 
+
+.titulos{
+    background-color: #f6be30;
+    text-align:center;
+}
+
+
+footer{
+    color:#fff;
+    background-color: #f6be30;
+    text-align: center;
+    padding: 30px;
+}
+
+.pie a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+
+/* FLEX!!! */
+.card{
+    background-color:#fff;
+    margin-bottom: 2em;
+    width: 33%;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
