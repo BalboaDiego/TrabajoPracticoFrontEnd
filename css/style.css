@@ -70,7 +70,7 @@ section.carrusel {
 
 
 /* DEPARTAMENTOS */
-.grilla{
+div.grilla{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(6,1fr);
@@ -83,44 +83,44 @@ section.carrusel {
                                 "contenido5  contenido5   contenido5";
 }
 
-.grilla .header {
+div.grilla .header {
     background-color: #f6be30;
     grid-area: header;
 }
 
-.grilla .header .titulos-h3{
+div.grilla .header .titulos-h3{
     height:100%;
 }
 
-.grilla .contenido1 {
+div.grilla .contenido1 {
     background-color: #f6be30;
     grid-area: contenido1;
 }
 
-.grilla .contenido2 {
+div.grilla .contenido2 {
     background-color: #f6be30;
     grid-area: contenido2;
 }
 
-.grilla .contenido3 {
+div.grilla .contenido3 {
     background-color: #f6be30;
     grid-area: contenido3;
 }
 
-.grilla .contenido4 {
+div.grilla .contenido4 {
     background-color: #f6be30;
     grid-area: contenido4;
     display: flex;
 }
 
-.grilla .contenido5 {
+div.grilla .contenido5 {
     background-color: #f6be30;
     grid-area: contenido5;
     display: flex;
     padding-bottom: 6rem;
 }
 
-.grilla .aside{
+div.grilla .aside{
     background-color: #f6be30;
     grid-area: aside;
 } 
