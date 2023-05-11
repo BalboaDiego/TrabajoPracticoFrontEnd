@@ -1,9 +1,9 @@
-
+/* INDEX */
 .nav-item {
     background-color: #f6be30 ;
     margin-right: 1rem;
     border-radius: 0.5rem;
-    width: 6rem;
+    width: 8rem;
     text-align: center;
 }
 
@@ -15,16 +15,16 @@
     width: 3rem;
 }
 
-
-.carousel-inner {
+section.carrusel {
     padding: 1rem;
-    height: auto;
-
+    margin: 0 auto;
 }
 
-.card-content h2{
-    padding: auto;
-    margin: 0,2rem;
+.cards{
+    padding: 1rem;
+}
+
+.card-content {
     text-align: center;
 }
 
@@ -42,7 +42,7 @@
 }
 
 
-footer{
+.pie{
     color:#fff;
     background-color: #f6be30;
     text-align: center;
@@ -55,7 +55,7 @@ footer{
 }
 
 
-/* FLEX!!! */
+/* INDEX - FLEX */
 .card{
     background-color:#fff;
     margin-bottom: 2em;
@@ -68,3 +68,90 @@ footer{
     justify-content: space-around;
 }
 
+
+/* DEPARTAMENTOS */
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-gap: 20px;
+        grid-template-areas:    " header       header    header"
+                                "contenido1  contenido1   aside "
+                                "contenido2  contenido2   aside "
+                                "contenido3  contenido3   aside "
+                                "contenido4  contenido4   contenido4"
+                                "contenido5  contenido5   contenido5";
+}
+
+.grilla .header {
+    background-color: #f6be30;
+    grid-area: header;
+}
+
+.grilla .header .titulos-h3{
+    height:100%;
+}
+
+.grilla .contenido1 {
+    background-color: #f6be30;
+    grid-area: contenido1;
+}
+
+.grilla .contenido2 {
+    background-color: #f6be30;
+    grid-area: contenido2;
+}
+
+.grilla .contenido3 {
+    background-color: #f6be30;
+    grid-area: contenido3;
+}
+
+.grilla .contenido4 {
+    background-color: #f6be30;
+    grid-area: contenido4;
+    display: flex;
+}
+
+.grilla .contenido5 {
+    background-color: #f6be30;
+    grid-area: contenido5;
+    display: flex;
+    padding-bottom: 6rem;
+}
+
+.grilla .aside{
+    background-color: #f6be30;
+    grid-area: aside;
+} 
+
+.contenido1 img {
+    padding: 1rem;
+    width: 100%;
+}
+
+.contenido2 img {
+    padding: 1rem;
+    width: 100%;
+}
+
+.contenido3 img {
+    padding: 1rem;
+    width: 100%;
+}
+
+.aside ul {
+    list-style-type: none;
+    text-align: left;
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+
+.lista1, .lista2, .lista3 {
+    flex: 1;
+    margin:1rem;
+    padding:1rem;
+    list-style-type:square;
+    list-style-position: inside;
+    text-align: center;
+}
