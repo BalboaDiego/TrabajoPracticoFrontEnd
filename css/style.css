@@ -188,3 +188,87 @@ div.grilla .aside2{
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+/* FORMULARIO */
+
+.form-group {
+    margin-bottom: 0.75rem;
+}
+
+.etiq {
+    display: block;
+    margin-bottom: 0.1rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #0a0907;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #030303;
+}
+  
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2048px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    border:2px solid #f6a730;
+    border-radius: 4px ;
+    padding: 2rem;
+    padding-top: 1.5rem;
+}
+  
+.colum-izq {
+    flex-basis: 35%;
+    padding: 70px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+.resum-contacto{
+    text-align: center;
+    color: #a08567;
+    padding-bottom: 2rem;
+}
+  
+.colum-der {
+    flex-basis: 65%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+  
+.img-form {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.boton-enviar {
+    color: #fff;
+    background-color: #f6a730;
+    border-color: #f6a730;
+}
+
+.boton-enviar:hover {
+    color: #fff;
+    background-color: #f6a730;
+    border-color: #f6a730;
+}
+
