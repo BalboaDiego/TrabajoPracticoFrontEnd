@@ -36,7 +36,52 @@
             </div>
           </nav>
     </header>
-    <h1>Contacto</h1>
+    
+ <h2 class="titulos">CONTACTA CON NOSOTROS</h2>
+     <div class="contenedor">     
+        <div class="colum-izq">
+            <h5 class="resum-contacto">Completá el formulario para contactarnos sobre cualquier pregunta o comentario que tengas y nos contactaremos a la brevedad.</h5>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label class="etiq" for="name">Nombre y apellido</label>
+                    <input type="text" class="form-control" id="name" name="name" required >
+                </div>
+                <div class="form-group">
+                    <label class="etiq" for="tel">Número de teléfono</label>
+                    <input type="text" class="form-control" id="tel" name="tel" required >
+                </div>
+                <div class="form-group">
+                    <label class="etiq" for="email">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label class="etiq" for="motivo">Motivo de consulta</label>
+                    <select name="motivo" id="motivo" size="1">
+                        <option value="1">Me gustaría alquilar!</option>
+                        <option value="2">Estoy interesado en comprar.</option>
+                        <option value="3">Soy propietario, quiero publicar.   </option>
+                        <option value="4">Otro tipo de consultas.</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                  <label class="etiq" for="codigo">Código del inmueble que desea consultar</label>
+                  <input type="codigo" class="form-control" id="codigo" name="codigo" required>
+                </div>
+                <div class="form-group">
+                  <label class="etiq" for="mensaje">Consulta</label>
+                  <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" name="op" value="1"> Quiero recibir una copia del mensaje en mi email
+                </div>
+                <button type="submit" class="boton-enviar">Enviar consulta</button>
+            </form>
+        </div>
+        <div class="colum-der">
+          <img src="Captura de pantalla 2023-05-14 232645.png" class="img-form" alt="Imagen de formulario">
+        </div>
+    </div>
+    
     <footer class="pie">
         <a href="http://twitter.com" target="_blank" width="300">
             <i class="fa-brands fa-square-twitter fa-beat fa-2xl" style="color: #f8f2f2;"></i>
