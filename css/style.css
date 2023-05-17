@@ -200,24 +200,24 @@ div.grilla .aside2{
     margin-bottom: 0.1rem;
 }
 
-.form-control {
+.control-form {
     display: block;
     width: 100%;
     padding: 0.5rem 0.75rem;
     font-size: 1rem;
     line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
+    color: #4d4540;
+    background-color: #ffffff;
     background-clip: padding-box;
-    border: 1px solid #ced4da;
+    border: 1px solid #dee2e6;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.form-control:focus {
-    border-color: #0a0907;
+.control-form:focus {
+    border-color: #fac16d;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem #030303;
+    box-shadow: 0 0 0 0.15rem #fac16d;
 }
   
 .contenedor {
@@ -233,6 +233,10 @@ div.grilla .aside2{
     padding: 2rem;
     padding-top: 1.5rem;
 }
+
+#motivo:focus {
+    box-shadow: 0 0 0 0.2rem #fac16d;
+}
   
 .colum-izq {
     flex-basis: 35%;
@@ -243,7 +247,7 @@ div.grilla .aside2{
 
 .resum-contacto{
     text-align: center;
-    color: #a08567;
+    color: #574837;
     padding-bottom: 2rem;
 }
   
@@ -268,7 +272,14 @@ div.grilla .aside2{
 
 .boton-enviar:hover {
     color: #fff;
-    background-color: #f6a730;
-    border-color: #f6a730;
+    background-color: #ffc875;
+    border-color: #ffc875;
 }
 
+#oculto{
+    display: none;
+}
+
+.error {
+    color: red;
+}
