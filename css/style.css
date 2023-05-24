@@ -8,7 +8,7 @@
     background-color: #f6be30 ;
     margin-right: 1rem;
     border-radius: 0.5rem;
-    width: 8rem;
+    width: 10rem;
     text-align: center;
 }
 
@@ -85,6 +85,7 @@
     background-color:#fff;
     margin-bottom: 2em;
     width: 33%;
+    border: 2px ;
 }
 
 .cards{
@@ -92,7 +93,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
 
 /* DEPARTAMENTOS */
 .titulo-h3 {
@@ -202,8 +202,8 @@ div.grilla .aside2{
     padding-right: 1rem;
 }
 
-/* FORMULARIO */
 
+/* FORMULARIO */
 .form-group {
     margin-bottom: 0.75rem;
 }
@@ -238,6 +238,8 @@ div.grilla .aside2{
     flex-wrap: wrap;
     max-width: 2048px;
     margin: 0 auto;
+    justify-content: center; /* Diego */
+    align-items: flex-start; /* Diego */
 }
 
 .contact-form {
@@ -253,8 +255,13 @@ div.grilla .aside2{
   
 .colum-izq {
     flex-basis: 35%;
-    padding: 70px;
-    padding-top: 40px;
+
+    /* padding: 70px;*/         /* Diego */
+    /* padding-top: 40px;*/     /* Diego */
+    padding-top: 4rem;          /* Diego */
+    padding: 2rem ;             /* Diego */
+    margin: 0 auto;             /* Diego */
+
     box-sizing: border-box;
 }
 
@@ -297,10 +304,47 @@ div.grilla .aside2{
     color: red;
 }
 
-/* A REVISAR! --DIEGO
-@media (max-width: 768px){
+/* Diego */
+@media (max-width: 1090px){
     .colum-der{
         display: none;
     }
 }
-*/
+
+/* PROPIEDAD */
+
+.prop-filtro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(to right, #f6a730, #f0c559, #f6a730);
+  }
+
+  f6be30
+  
+  .prop-filtro-ambientes,
+  .prop-filtro-ubicacion,
+  .prop-filtro-precio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .prop-filtro-ambientes label,
+  .prop-filtro-ubicacion label,
+  .prop-filtro-precio label {
+    width: 250px; /* Ajusta el ancho máximo según tus necesidades */
+  }
+  
+  .prop-filtro-ambientes select,
+  .prop-filtro-ubicacion select,
+  .prop-filtro-precio select {
+    width: 100%;
+    max-width: 250px; /* Ajusta el ancho máximo según tus necesidades */
+    text-align: center;
+  }
+  
