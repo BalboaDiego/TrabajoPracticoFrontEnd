@@ -311,7 +311,6 @@ div.grilla .aside2{
 }
 
 /* PROPIEDAD */
-
 .prop-filtro {
     display: flex;
     flex-direction: column;
@@ -334,18 +333,30 @@ div.grilla .aside2{
   .prop-filtro-ambientes label,
   .prop-filtro-ubicacion label,
   .prop-filtro-precio label {
-    width: 250px; /* Ajusta el ancho máximo según tus necesidades */
+    width: 250px; 
   }
   
   .prop-filtro-ambientes select,
   .prop-filtro-ubicacion select,
   .prop-filtro-precio select {
     width: 100%;
-    max-width: 250px; /* Ajusta el ancho máximo según tus necesidades */
+    max-width: 250px; 
     text-align: center;
   }
   
-<<<<<<< HEAD
   /* SUCURSALES */
-=======
->>>>>>> c1df98320341254ba62d82e5e6f84eafbe3a8d72
+.sucursales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    /* background-image: linear-gradient(to right, #f6a730, #f0c559, #f6a730); */
+}
+
+.maps {
+    border: 2px solid #f6a730;
+    border-radius: 4px;
+
+}
