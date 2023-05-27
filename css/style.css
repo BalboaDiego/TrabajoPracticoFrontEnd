@@ -312,6 +312,7 @@ div.grilla .aside2{
 }
 
 /* PROPIEDAD */
+
 .prop-filtro {
     display: flex;
     flex-direction: column;
@@ -334,14 +335,14 @@ div.grilla .aside2{
   .prop-filtro-ambientes label,
   .prop-filtro-ubicacion label,
   .prop-filtro-precio label {
-    width: 250px; 
+    width: 250px; /* Ajusta el ancho máximo según tus necesidades */
   }
   
   .prop-filtro-ambientes select,
   .prop-filtro-ubicacion select,
   .prop-filtro-precio select {
     width: 100%;
-    max-width: 250px; 
+    max-width: 250px; /* Ajusta el ancho máximo según tus necesidades */
     text-align: center;
   }
   
