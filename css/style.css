@@ -204,7 +204,7 @@ div.grilla .aside2{
 
 
 /* FORMULARIO */
-.form-group {
+.field {
     margin-bottom: 0.75rem;
 }
 
@@ -287,6 +287,7 @@ div.grilla .aside2{
     color: #fff;
     background-color: #f6a730;
     border-color: #f6a730;
+    margin-bottom: 20px;
 }
 
 .boton-enviar:hover {
@@ -299,8 +300,22 @@ div.grilla .aside2{
     display: none;
 }
 
-.error {
-    color: red;
+.warnings{
+    /*width: 200px;*/
+    text-align: left;
+    margin: auto;
+    color: #dd5555;
+    font-size: 12px;
+}
+
+.error-message {
+    color: #dd5555;
+    font-size: 14px;
+}
+  
+.success-message {
+    color: #3fc018;
+    font-size: 14px;
 }
 
 /* Diego */
