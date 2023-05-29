@@ -116,7 +116,7 @@ div.grilla{
                             "contenido3  contenido3"
                             "contenido4  contenido4bis"
                             "contenido5  contenido5";
-    grid-auto-rows: minmax(auto, max-content);
+    /* grid-auto-rows: minmax(auto, max-content); */
 
 }
 
@@ -151,34 +151,11 @@ div.grilla .contenido5 {
     background-color: #f6be30;
 }
 
-/* div.grilla .aside{
-    background-color: #f6be30;
-    grid-area: aside;
-} 
-
-div.grilla .aside2{
-    background-color: #f6be30;
-    grid-area: aside2;
-    
-} */
-
 .contenido1 img, .contenido2 img, .contenido3 img  {
     width:100%;
     height:100%;
     object-fit: cover;
-    margin-right: 1rem;
 }
-
-/* .aside h5 {
-    padding-top: 1rem;
-    text-align: center;
-}
-
-.aside ul {
-    list-style-type: none;
-    text-align: left;
-} */
-
 
 .lista1, .lista2, .lista3 {
     background: #f6be30;
@@ -186,24 +163,6 @@ div.grilla .aside2{
     text-align: left;
     list-style-type:square;
 }
-
-
-/* .aside2 h5 {
-    padding-top: 1rem;
-    text-align: center;
-    width:100%
-}
-
-.aside2 iframe {
-    display: flex;
-    width:100%;
-    height:75%;
-    justify-content: center;
-    padding-top: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-} */
-
 
 /* FORMULARIO */
 .field {
