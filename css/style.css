@@ -109,45 +109,49 @@
 
 div.grilla{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(4,1fr);
-    grid-gap: 20px;
-    grid-template-areas:    "contenido1  contenido1   aside "
-                            "contenido2  contenido2   aside "
-                            "contenido3  contenido3   aside2 "
-                            "contenido4  contenido4   contenido4"
-                            "contenido5  contenido5   contenido5";
+    grid-template-areas:    "contenido1  contenido1"
+                            "contenido2  contenido2"
+                            "contenido3  contenido3"
+                            "contenido4  contenido4bis"
+                            "contenido5  contenido5";
     grid-auto-rows: minmax(auto, max-content);
-    padding-bottom: 1rem;
-    position: relative;
 
 }
 
 div.grilla .contenido1 {
     grid-area: contenido1;
+    margin: 5px;
 }
 
 div.grilla .contenido2 {
     grid-area: contenido2;
+    margin: 5px;
 }
 
 div.grilla .contenido3 {
     grid-area: contenido3;
+    margin: 5px;
 }
 
 div.grilla .contenido4 {
     grid-area: contenido4;
-    display: flex;
+    background-color: #f6be30;
+
+}
+
+div.grilla .contenido4bis {
+    grid-area: contenido4bis;
+    background-color: #f6be30;
 }
 
 div.grilla .contenido5 {
     grid-area: contenido5;
-    display: flex;
-    padding-bottom: 1rem;
     background-color: #f6be30;
 }
 
-div.grilla .aside{
+/* div.grilla .aside{
     background-color: #f6be30;
     grid-area: aside;
 } 
@@ -156,7 +160,7 @@ div.grilla .aside2{
     background-color: #f6be30;
     grid-area: aside2;
     
-}
+} */
 
 .contenido1 img, .contenido2 img, .contenido3 img  {
     width:100%;
@@ -165,7 +169,7 @@ div.grilla .aside2{
     margin-right: 1rem;
 }
 
-.aside h5 {
+/* .aside h5 {
     padding-top: 1rem;
     text-align: center;
 }
@@ -173,20 +177,18 @@ div.grilla .aside2{
 .aside ul {
     list-style-type: none;
     text-align: left;
-}
+} */
 
 
 .lista1, .lista2, .lista3 {
     background: #f6be30;
-    flex: 1;
-    list-style-type:square;
-    list-style-position: inside;
-    padding-top: 1rem;
+    padding-top: 1rem; 
     text-align: left;
+    list-style-type:square;
 }
 
 
-.aside2 h5 {
+/* .aside2 h5 {
     padding-top: 1rem;
     text-align: center;
     width:100%
@@ -200,7 +202,7 @@ div.grilla .aside2{
     padding-top: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
-}
+} */
 
 
 /* FORMULARIO */
